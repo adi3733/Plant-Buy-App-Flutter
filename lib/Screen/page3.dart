@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:plant_site/Screen/page2.dart';
+import 'package:plant_site/Screen/Page2.dart';
 import 'package:plant_site/Screen/page4.dart';
 
 class Page3 extends StatefulWidget {
@@ -39,7 +39,7 @@ class _Page3State extends State<Page3> {
           
           GestureDetector(
              onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => page2()),);
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Page2()),);
             },
           
           child:Padding(padding: EdgeInsets.only(top:70,left:20),

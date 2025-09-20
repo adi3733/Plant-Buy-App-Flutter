@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:plant_site/Screen/page2.dart';
+import 'package:plant_site/Screen/Page2.dart';
 
 class Page1 extends StatefulWidget {
   const Page1({super.key});
 
   @override
-  State<StatefulWidget> createState() => _page1State();
+  State<StatefulWidget> createState() => _Page1State();
 }
 
-// ignore: camel_case_types
-class _page1State extends State {
+
+class _Page1State extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,14 +28,9 @@ class _page1State extends State {
           mainAxisAlignment: MainAxisAlignment.center,
 
           children: [
-            Container(
-              //width: MediaQuery.of(context).size.width,
-              // height: MediaQuery.of(context).size.height,
-              child: Padding(
-                padding: const EdgeInsets.all(2.0),
-                child: Image.asset("assets/plant2.png"),
-
-              ),
+            Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Image.asset("assets/plant2.png"),
             ),
             SizedBox(height: 40),
 
@@ -59,7 +54,7 @@ class _page1State extends State {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => page2()),
+                  MaterialPageRoute(builder: (context) => Page2()),
                 );
               },
               child: Container(

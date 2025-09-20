@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:plant_site/Screen/page1.dart';
 import 'package:plant_site/Screen/page3.dart';
 
-class page2 extends StatefulWidget {
-  const page2({super.key});
+class Page2 extends StatefulWidget {
+  const Page2({super.key});
 
   @override
-  State<StatefulWidget> createState() => _page2State();
+  State<StatefulWidget> createState() => _Page2State();
 }
 
-class _page2State extends State {
+class _Page2State extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
