@@ -95,12 +95,6 @@ class _page2State extends State {
               ),
             ),
             SizedBox(height: 20),
-
-            // Container(
-            //   height:40,
-            //   width:300,
-            //   decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(20))),
-            // ),
             Image.asset("assets/plant1.png"),
           ],
         ),
